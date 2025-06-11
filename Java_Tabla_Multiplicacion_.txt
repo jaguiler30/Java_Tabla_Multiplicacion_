@@ -1,0 +1,19 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        int tabla = 6;
+        int contador = 1;
+        int resultado= 0;
+            System.out.println("Tabla de multiplicar del " + tabla);
+        while (contador  <= 30) {
+            resultado = tabla * contador;
+            System.out.println(tabla + "x" + contador + "=" + tabla);
+            contador = contador +1;           
+        }
+        System.out.println("Fin deprograma ....");
+    }
+}
